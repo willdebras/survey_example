@@ -96,11 +96,15 @@ test1 <- prop_test(marital, "q6", tl_surv) %T>% View()
 
 # Models :)
 
+#Creating a formula 
 
+harris_formula <- as.formula("q6~marital + raceth + gender")
 
+harris_model1 <- svyolr(harris_formula, tl_surv)
 
+tidy(harris_model1)
 
-
+#see also svyglm
 
 #--------------------------------#
 

@@ -9,7 +9,7 @@ library(haven)    # {haven} to add label attributes
 
 # Optional libraries
 
-library(tibble)   #{dplyr} I usually import for a handful of helpful data manipulation functions
+library(tibble)   #{tibble} I usually import for a handful of helpful data manipulation functions
 library(magrittr) #{magrittr} Adds more pipes!
 library(broom)    #{broom} Lets us tidy model outputs
 

@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1570053053267.000,
+    "dirty" : false,
+    "encoding" : "ISO8859-1",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F7F299F7",
+    "lastKnownWriteTime" : 1570118744,
+    "last_content_update" : 1570118744935,
+    "path" : "H:/New fldr/survey_analysis/survey_scratch.R",
+    "project_path" : "survey_scratch.R",
+    "properties" : {
+        "cursorPosition" : "142,30",
+        "scrollLine" : "126",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

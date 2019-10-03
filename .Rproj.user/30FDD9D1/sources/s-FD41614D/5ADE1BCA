@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1570110418223.000,
+    "dirty" : false,
+    "encoding" : "ISO8859-1",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5ADE1BCA",
+    "lastKnownWriteTime" : 1570111228,
+    "last_content_update" : 1570111228083,
+    "path" : "H:/New fldr/survey_analysis/survey_setup.R",
+    "project_path" : "survey_setup.R",
+    "properties" : {
+        "cursorPosition" : "2,9",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

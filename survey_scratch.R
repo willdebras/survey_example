@@ -93,7 +93,7 @@ q6_prop <- reshape2::dcast(data = chisq_prop, q6 ~ marital, value.var = ".col.pr
 
 #Running a custom prop test function
 
-test1 <- prop_test(gender, "q7", tl_surv) %T>% View()
+test1 <- prop_test(gender, q7, tl_surv) %T>% View()
 
 
 

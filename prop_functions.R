@@ -4,7 +4,7 @@ prop_test <- function(cut, question, survey_data) {
   require(survey)
   require(rlang)
   
-  #question <- enquo(question)
+  question <- enquo(question)
   cut <- enquo(cut)
   
   formula <- paste("~", question, "+", cut)
@@ -22,27 +22,4 @@ prop_test <- function(cut, question, survey_data) {
   return(cur1_prop_wide)
   
 }
-
-
-single_cut(survey_data = june_svy, educ4, "cur1")
-
-cuts <- c("marital", "educ4")
-
-
-banner <- function(survey_df, question, cuts) {
-  
-  question <- enquo(question)
-  
-  
-  
-  banner_list <- lapply(cuts, single_cut, question, survey_df)
-  
-  bann <- do.call(cbind, banner_list)
-  
-  return(bann)
-  
-  
-}
-
-banner(june_svy, cur1, cuts = c("marital", "educ4"))
 
